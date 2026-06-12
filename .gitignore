@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+
+# Lockfiles gerados automaticamente
+*-lock.json
+*.lock
+
+# Relatórios e evidências gerados em tempo de execução
+cypress/reports/
+cypress/screenshots/
+cypress/videos/
+
+# Cypress cache local
+.cypress-cache/
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,19 @@
+{
+    "scripts": {
+        "test": "cypress run",
+        "test:api": "cypress run --spec \"cypress/api/**/*.cy.js\"",
+        "test:api:posts": "cypress run --spec \"cypress/api/posts/posts.cy.js\"",
+        "test:api:users": "cypress run --spec \"cypress/api/users/users.cy.js\"",
+        "test:e2e": "cypress run --spec \"cypress/e2e/**/*.cy.js\"",
+        "test:e2e:login": "cypress run --spec \"cypress/e2e/login/login.cy.js\"",
+        "test:e2e:checkout": "cypress run --spec \"cypress/e2e/checkout/checkout.cy.js\"",
+        "cypress:open": "cypress open"
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^10.4.0",
+        "ajv": "^8.20.0",
+        "cypress": "^15.17.0",
+        "cypress-mochawesome-reporter": "^4.0.2",
+        "cypress-plugin-api": "^2.11.2"
+    }
+}
