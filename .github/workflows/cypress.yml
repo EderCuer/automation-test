@@ -30,9 +30,7 @@ jobs:
         if: always()
         with:
           name: relatorio-e2e
-          path: |
-            cypress/reports/
-            cypress/screenshots/
+          path: cypress/reports/html/
 
   api:
     name: API Tests
@@ -57,9 +55,7 @@ jobs:
         if: always()
         with:
           name: relatorio-api
-          path: |
-            cypress/reports/
-            cypress/screenshots/
+          path: cypress/reports/html/
 
   publish-report:
     name: Publicar Relatório
@@ -101,8 +97,8 @@ jobs:
           </head>
           <body>
             <h1>Relatório de Testes</h1>
-            <a href="e2e/cypress/reports/html/index.html">Testes E2E</a>
-            <a href="api/cypress/reports/html/index.html">Testes API</a>
+            <a href="e2e/index.html">Testes E2E</a>
+            <a href="api/index.html">Testes API</a>
           </body>
           </html>
           EOF
