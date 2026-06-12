@@ -5,6 +5,7 @@ Projeto de automação de testes end-to-end (E2E) e de API utilizando Cypress. O
 A arquitetura do projeto é baseado na técnica de automação de testes App Actions, é um modelo proposto pelos desenvolvedores do Cypress, que encaixa melhor na arquitetura do Cypress. 
 
 ## Relatório
+Para facilitar a visualização dos relatórios, foi adicionado uma etapa de publicação do relatório no Github Pages.
 
 O relatório de execução atualizado a cada push está disponível em:
 **[https://edercuer.github.io/automation-test/](https://edercuer.github.io/automation-test/)**
