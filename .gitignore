@@ -1,9 +1,6 @@
 # Dependências
 node_modules/
 
-# Lockfiles gerados automaticamente
-*-lock.json
-*.lock
 
 # Relatórios e evidências gerados em tempo de execução
 cypress/reports/
